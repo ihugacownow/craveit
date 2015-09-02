@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984CA3191B96A49B00575850 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA3181B96A49B00575850 /* MainPageViewController.swift */; };
+		984CA31B1B96A4E400575850 /* MarketPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA31A1B96A4E400575850 /* MarketPlaceViewController.swift */; };
+		984CA31D1B96A51700575850 /* CreateRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA31C1B96A51700575850 /* CreateRequestViewController.swift */; };
+		984CA31F1B96A53C00575850 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA31E1B96A53C00575850 /* SignInViewController.swift */; };
+		984CA3211B96A55A00575850 /* RequestDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA3201B96A55A00575850 /* RequestDashboardViewController.swift */; };
+		984CA3231B96A57C00575850 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA3221B96A57C00575850 /* ChatViewController.swift */; };
+		984CA3251B96A58B00575850 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA3241B96A58B00575850 /* MessagesViewController.swift */; };
+		984CA3271B96A5F500575850 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984CA3261B96A5F500575850 /* RegistrationViewController.swift */; };
 		9899EDCB1B969C950077606D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9899EDCA1B969C950077606D /* AppDelegate.swift */; };
 		9899EDCE1B969C950077606D /* craveit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9899EDCC1B969C950077606D /* craveit.xcdatamodeld */; };
-		9899EDD01B969C950077606D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9899EDCF1B969C950077606D /* ViewController.swift */; };
 		9899EDD31B969C950077606D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9899EDD11B969C950077606D /* Main.storyboard */; };
 		9899EDD51B969C950077606D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9899EDD41B969C950077606D /* Images.xcassets */; };
 		9899EDD81B969C950077606D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9899EDD61B969C950077606D /* LaunchScreen.xib */; };
@@ -27,11 +34,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		984CA3181B96A49B00575850 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		984CA31A1B96A4E400575850 /* MarketPlaceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarketPlaceViewController.swift; sourceTree = "<group>"; };
+		984CA31C1B96A51700575850 /* CreateRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRequestViewController.swift; sourceTree = "<group>"; };
+		984CA31E1B96A53C00575850 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		984CA3201B96A55A00575850 /* RequestDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestDashboardViewController.swift; sourceTree = "<group>"; };
+		984CA3221B96A57C00575850 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		984CA3241B96A58B00575850 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		984CA3261B96A5F500575850 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
 		9899EDC51B969C950077606D /* craveit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = craveit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9899EDC91B969C950077606D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9899EDCA1B969C950077606D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9899EDCD1B969C950077606D /* craveit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = craveit.xcdatamodel; sourceTree = "<group>"; };
-		9899EDCF1B969C950077606D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9899EDD21B969C950077606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9899EDD41B969C950077606D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9899EDD71B969C950077606D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +72,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		984CA3141B96A3CE00575850 /* market */ = {
+			isa = PBXGroup;
+			children = (
+				984CA31A1B96A4E400575850 /* MarketPlaceViewController.swift */,
+				984CA31C1B96A51700575850 /* CreateRequestViewController.swift */,
+			);
+			name = market;
+			sourceTree = "<group>";
+		};
+		984CA3151B96A3F000575850 /* main page */ = {
+			isa = PBXGroup;
+			children = (
+				984CA3181B96A49B00575850 /* MainPageViewController.swift */,
+			);
+			name = "main page";
+			sourceTree = "<group>";
+		};
+		984CA3161B96A45000575850 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				984CA31E1B96A53C00575850 /* SignInViewController.swift */,
+				984CA3201B96A55A00575850 /* RequestDashboardViewController.swift */,
+				984CA3261B96A5F500575850 /* RegistrationViewController.swift */,
+			);
+			name = profile;
+			sourceTree = "<group>";
+		};
+		984CA3171B96A46F00575850 /* chat */ = {
+			isa = PBXGroup;
+			children = (
+				984CA3221B96A57C00575850 /* ChatViewController.swift */,
+				984CA3241B96A58B00575850 /* MessagesViewController.swift */,
+			);
+			name = chat;
+			sourceTree = "<group>";
+		};
 		9899EDBC1B969C950077606D = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +129,11 @@
 		9899EDC71B969C950077606D /* craveit */ = {
 			isa = PBXGroup;
 			children = (
-				9899EDCA1B969C950077606D /* AppDelegate.swift */,
-				9899EDCF1B969C950077606D /* ViewController.swift */,
+				984CA3171B96A46F00575850 /* chat */,
+				984CA3161B96A45000575850 /* profile */,
+				984CA3151B96A3F000575850 /* main page */,
+				984CA3141B96A3CE00575850 /* market */,
 				9899EDD11B969C950077606D /* Main.storyboard */,
-				9899EDD41B969C950077606D /* Images.xcassets */,
-				9899EDD61B969C950077606D /* LaunchScreen.xib */,
-				9899EDCC1B969C950077606D /* craveit.xcdatamodeld */,
 				9899EDC81B969C950077606D /* Supporting Files */,
 			);
 			path = craveit;
@@ -93,6 +142,10 @@
 		9899EDC81B969C950077606D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9899EDD41B969C950077606D /* Images.xcassets */,
+				9899EDCC1B969C950077606D /* craveit.xcdatamodeld */,
+				9899EDCA1B969C950077606D /* AppDelegate.swift */,
+				9899EDD61B969C950077606D /* LaunchScreen.xib */,
 				9899EDC91B969C950077606D /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,9 +268,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9899EDD01B969C950077606D /* ViewController.swift in Sources */,
+				984CA3251B96A58B00575850 /* MessagesViewController.swift in Sources */,
+				984CA31F1B96A53C00575850 /* SignInViewController.swift in Sources */,
+				984CA3191B96A49B00575850 /* MainPageViewController.swift in Sources */,
+				984CA3271B96A5F500575850 /* RegistrationViewController.swift in Sources */,
+				984CA31D1B96A51700575850 /* CreateRequestViewController.swift in Sources */,
+				984CA31B1B96A4E400575850 /* MarketPlaceViewController.swift in Sources */,
 				9899EDCE1B969C950077606D /* craveit.xcdatamodeld in Sources */,
 				9899EDCB1B969C950077606D /* AppDelegate.swift in Sources */,
+				984CA3231B96A57C00575850 /* ChatViewController.swift in Sources */,
+				984CA3211B96A55A00575850 /* RequestDashboardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +475,7 @@
 				9899EDE91B969C950077606D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9899EDEA1B969C950077606D /* Build configuration list for PBXNativeTarget "craveitTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +484,7 @@
 				9899EDEC1B969C950077606D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
